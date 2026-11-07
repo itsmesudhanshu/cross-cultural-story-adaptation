@@ -1,0 +1,24 @@
+{
+  "festivals": {
+    "Christmas": "Diwali",
+    "Halloween": "Holi",
+    "Thanksgiving": "Pongal"
+  },
+
+  "locations": {
+    "New York": "Delhi",
+    "London": "Mumbai",
+    "California": "Bengaluru"
+  },
+
+  "people": {
+    "Tom": "Rohan",
+    "Emily": "Ananya",
+    "Jack": "Arjun"
+  },
+
+  "food": {
+    "Apple Pie": "Gulab Jamun",
+    "Burger": "Vada Pav"
+  }
+}
