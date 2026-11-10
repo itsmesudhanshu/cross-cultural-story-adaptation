@@ -49,13 +49,11 @@ if st.button("Adapt Story"):
         "0.84"
     )
 # Gemini Connect
-load_dotenv()
+import streamlit as st
 
-genai.configure(
-    api_key=os.getenv(
-        "GOOGLE_API_KEY"
-    )
-)
+api_key = st.secrets["GOOGLE_API_KEY"]    
+
+
 
 model = genai.GenerativeModel(
     "models/gemini-flash-latest"
